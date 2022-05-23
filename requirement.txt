@@ -1,5 +1,15 @@
+anyio==3.6.1
 asgiref==3.5.2
 backports.zoneinfo==0.2.1
+certifi==2022.5.18.1
+charset-normalizer==2.0.12
 Django==4.0.4
 django-crispy-forms==1.14.0
+h11==0.12.0
+httpcore==0.14.7
+httpx==0.22.0
+idna==3.3
+rfc3986==1.5.0
+sniffio==1.2.0
 sqlparse==0.4.2
+youtube-search-python==1.6.5
