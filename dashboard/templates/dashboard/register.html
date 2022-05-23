@@ -1,5 +1,11 @@
+{% extends 'dashboard/base.html' %} 
+{% load static %} 
+{% load crispy_forms_tags %}
+{% block content %}
 <div class="container">
   <form method="POST">
+    {% csrf_token %}
+        {{form|crispy}}
     <fieldset class="form-group">
       <legend class="border-bottom mb-4">Join Today</legend>
     </fieldset>
@@ -15,3 +21,4 @@
     </small>
   </div>
 </div>
+{% endblock content %}
